@@ -1,5 +1,9 @@
 # Alabaster Theme for Highlight.js
 
+![License](https://img.shields.io/npm/l/hljs-alabaster)
+![NPM version](https://img.shields.io/npm/v/hljs-alabaster)
+![Minified size](https://img.shields.io/bundlephobia/min/hljs-alabaster)
+
 Most color themes highlight everything they can, ending up looking like a fireworks show.
 
 Instead, Alabaster uses minimal highlighting. See [original motivation statement](https://github.com/tonsky/vscode-theme-alabaster#motivation).
