@@ -106,20 +106,6 @@ window.hljsExamples.javascript = `function $initHighlight(block, cls) {
 
 export  $initHighlight;`;
 
-window.hljsExamples.http = `POST /task?id=1 HTTP/1.1
-Host: example.org
-Content-Type: application/json; charset=utf-8
-Content-Length: 137
-
-{
-  "status": "ok",
-  "extended": true,
-  "results": [
-    {"value": 0, "type": "int64"},
-    {"value": 1.0e+3, "type": "decimal"}
-  ]
-}`;
-
 window.hljsExamples.sql = `CREATE TABLE "topic" (
   "id" serial NOT NULL PRIMARY KEY,
   "forum_id" integer NOT NULL,
@@ -149,7 +135,7 @@ genApacheConf(){
  echo -e "# Host \${HOME_DIR}$1/$2 :"
 }`;
 
-window.hljsExamples.ini = `; boilerplate
+window.hljsExamples.toml = `; boilerplate
 [package]
 name = "some_name"
 authors = ["Author"]
