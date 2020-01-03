@@ -24,3 +24,13 @@
 .hljs-title {
   color: #325cc0;
 }
+
+.hljs-deletion {
+  background-color: #ffdddd;
+  color: #434343;
+}
+
+.hljs-addition {
+  background-color: #ddffdd;
+  color: #434343;
+}
