@@ -1,0 +1,26 @@
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 1.25rem 1.5rem 2rem;
+  color: #000;
+  background: #f7f7f7;
+}
+
+.hljs-comment {
+  color: #aa3731;
+}
+
+.hljs-string,
+.hljs-meta-string,
+.hljs-regexp {
+  color: #448c27;
+}
+
+.hljs-number,
+.hljs-literal {
+  color: #7a3e9d;
+}
+
+.hljs-title {
+  color: #325cc0;
+}

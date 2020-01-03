@@ -1,0 +1,32 @@
+{
+  "name": "hljs-alabaster",
+  "version": "0.0.0",
+  "description": "Alabaster Theme for Highlight.js",
+  "keywords": [
+    "alabaster",
+    "highlight.js",
+    "highlightjs",
+    "theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrew--r/hljs-alabaster.git"
+  },
+  "license": "MIT",
+  "author": "Andrey Romanov <me@andreyromanov.com>",
+  "files": [
+    "theme.css"
+  ],
+  "main": "theme.css",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "devDependencies": {
+    "@andrew-r/sharec-config": "0.1.0",
+    "prettier": "1.19.1"
+  },
+  "sharec": {
+    "config": "@andrew-r/sharec-config",
+    "version": "0.1.0"
+  }
+}

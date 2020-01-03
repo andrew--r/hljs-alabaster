@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Alabaster Theme for Highlight.js</title>
+  <link rel="stylesheet" href="demo.css">
+  <link rel="stylesheet" href="../theme.css">
+</head>
+<body>
+  <h1>Alabaster Theme for Highlight.js</h1>
+  <p>Most color themes highlight everything they can, ending up looking like a fireworks show.</p>
+  <p>Instead, Alabaster uses minimal highlighting. See <a href="https://github.com/tonsky/vscode-theme-alabaster#motivation">original motivation statement</a>.</p>
+
+  <div id="target"></div>
+
+  <script src="examples.js"></script>
+  <script src="demo.js"></script>
+  <script src="highlight.min.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      hljs.initHighlightingOnLoad();
+    });
+  </script>
+</body>
+</html>
