@@ -6,10 +6,20 @@ Instead, Alabaster uses minimal highlighting. See [original motivation statement
 
 ## Usage
 
+### Simplest way
+
+Download [theme file](https://raw.githubusercontent.com/andrew--r/hljs-alabaster/master/theme.css) and put it wherever you need.
+
+### Advanced setup
+
+If your build system supports importing CSS files from node_modules, you can install `hljs-alabaster` as a dependency:
+
 ```
 npm install hljs-alabaster
 ```
 
-```
+And directly import it in your CSS:
+
+```css
 @import 'hljs-alabaster';
 ```
