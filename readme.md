@@ -1,3 +1,5 @@
+![Demo screenshot](./demo/screenshot-python.png)
+
 # Alabaster Theme for Highlight.js
 
 ![License](https://img.shields.io/npm/l/hljs-alabaster)
@@ -7,6 +9,10 @@
 Most color themes highlight everything they can, ending up looking like a fireworks show.
 
 Instead, Alabaster uses minimal highlighting. See [original motivation statement](https://github.com/tonsky/vscode-theme-alabaster#motivation).
+
+## Demo
+
+See [demo page](https://andrew--r.github.io/hljs-alabaster).
 
 ## Usage
 
@@ -27,3 +33,8 @@ And directly import it in your CSS:
 ```css
 @import 'hljs-alabaster';
 ```
+
+## Credits
+
+- [Highlight.js](https://highlightjs.org)
+- [Original Alabaster theme](https://github.com/tonsky/vscode-theme-alabaster)
